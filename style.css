@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f1e8;
+    color: #263c32;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #263c32;
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    color: #f4f1e8;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-brand:hover {
+    color: #c4d6b0;
+}
+
+.nav-text {
+    color: #d5dfcc;
+    font-size: 14px;
+}
+
+/* Main Section */
+.main-container {
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.welcome-section {
+    margin-bottom: 35px;
+}
+
+.small-heading {
+    color: #78916d;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.welcome-section h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #263c32;
+}
+
+.subtitle {
+    color: #758075;
+    margin-top: 8px;
+}
+
+/* Form Card */
+.form-card {
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 14px;
+    border: 1px solid #e2e6d9;
+    height: 100%;
+}
+
+.form-card h3,
+.collection-card h3 {
+    font-weight: 700;
+    color: #263c32;
+}
+
+.form-subtitle {
+    color: #899287;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #52664f;
+}
+
+.form-control {
+    padding: 12px;
+    border: 1px solid #dce3d6;
+    border-radius: 8px;
+    background-color: #fafbf8;
+}
+
+.form-control:focus {
+    border-color: #78916d;
+    box-shadow: 0 0 0 3px rgba(120, 145, 109, 0.15);
+}
+
+.add-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #55775b;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.add-btn:hover {
+    background-color: #3e6047;
+    color: white;
+}
+
+/* Collection Card */
+.collection-card {
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 14px;
+    border: 1px solid #e2e6d9;
+    min-height: 400px;
+}
+
+.collection-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.book-icon {
+    font-size: 32px;
+}
+
+#book-list {
+    border: none;
+}
+
+#book-list .list-group-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #e4e9df;
+    border-radius: 9px;
+    background-color: #f8faf5;
+    color: #354b39;
+    font-size: 14px;
+}
+
+#book-list .btn-danger {
+    background-color: #bd6c5c;
+    border: none;
+    border-radius: 6px;
+}
+
+#book-list .btn-danger:hover {
+    background-color: #a65345;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 35px 0 10px;
+    color: #849080;
+    font-size: 12px;
+}
+
+@media (max-width: 576px) {
+    .welcome-section h1 {
+        font-size: 29px;
+    }
+
+    .nav-text {
+        display: none;
+    }
+
+    .form-card,
+    .collection-card {
+        padding: 20px;
+    }
+}
